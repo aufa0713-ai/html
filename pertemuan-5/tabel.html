@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tabel-html</title>
+  </head>
+  <body>
+    <h1>Membuat tabel pada html</h1>
+    <table border="1">
+      <tr>
+        <td>beruang</td>
+        <td>angsa</td>
+        <td>kura kura ninja</td>
+      </tr>
+      <tr>
+        <td>Apel</td>
+        <td>anggur</td>
+        <td>Jeruk</td>
+      </tr>
+      <tr>
+        <td>jalan</td>
+        <td>bebas</td>
+        <td>belajar</td>
+      </tr>
+      <tr>
+        <td>bebas</td>
+        <td>bebas</td>
+        <td>bebas</td>
+      </tr>
+    </table>
+
+    <hr />
+
+    <table border="1" cellpadding="10" bgcolor="blue">
+      <thead>
+        <tr bgcolor="grey">
+          <th>Binatang</th>
+          <th>Buah-buahan</th>
+          <th>Tumbuh-tumbuhan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>cheetah</td>
+          <td>jeruk</td>
+          <td>rumput</td>
+        </tr>
+        <tr>
+          <td>burung</td>
+          <td>pisang</td>
+          <td>pohon</td>
+        </tr>
+        <tr>
+          <td>capibara</td>
+          <td>semangka</td>
+          <td>bunga anggrek</td>
+        </tr>
+
+        <tr>
+          <td>singa</td>
+          <td>mangga</td>
+          <td>bunga edelweis</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+    <h1>Menggabungkan sel table</h1>
+    <table border="1" cellpadding="10" bgcolor="blue">
+      <thead>
+        <tr bgcolor="grey">
+          <th>Binatang</th>
+          <th colspan="2">Buah-buahan</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>cheetah</td>
+          <td colspan="2" style="text-align: center">jeruk</td>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: center">burung</td>
+        </tr>
+        <tr>
+          <td>capibara</td>
+          <td rowspan="6">semangka</td>
+          <td>bunga anggrek</td>
+        </tr>
+
+        <tr>
+          <td>singa</td>
+
+          <td>bunga edelweis</td>
+        </tr>
+        <tr>
+          <td>capibara</td>
+
+          <td>bunga anggrek</td>
+        </tr>
+
+        <tr>
+          <td>singa</td>
+
+          <td>bunga edelweis</td>
+        </tr>
+        <tr>
+          <td rowspan="2">capibara</td>
+
+          <td rowspan="2">bunga anggrek</td>
+        </tr>
+
+        <tr></tr>
+      </tbody>
+    </table>
+    <hr />
+    <h1>Menyisipkan elemen yang lain ke dalam sel pada html</h1>
+    <table border="1">
+      <tr>
+        <td rowspan="4"><img src="./../pertemuan-3/icon.jpg" alt="" width="50" /></td>
+        <td>angsa</td>
+        <td>kura kura ninja</td>
+      </tr>
+      <tr>
+        
+        <td>anggur</td>
+        <td>Jeruk</td>
+      </tr>
+      <tr>
+        
+        <td>bebas</td>
+        <td>belajar</td>
+      </tr>
+      <tr>
+       
+        <td>bebas</td>
+        <td>bebas</td>
+      </tr>
+    </table>
+  </body>
+</html>
